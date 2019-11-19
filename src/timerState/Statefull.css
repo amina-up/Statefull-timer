@@ -1,0 +1,76 @@
+.list-time {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: #ec7063;
+  font-size: 70px;
+  margin-top: 50px;
+  font-weight: bold;
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 5px 10px #888888;
+  color: black;
+  padding: 17px 0px 22px 0px;
+}
+.list-time:hover {
+  cursor: pointer;
+}
+.hours {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.minutes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.seconds {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.letter {
+  font-size: 20px;
+  opacity: 0.6;
+  color: black;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin: 18px;
+}
+.btn {
+  padding: 15px 39px;
+  font-size: 25px;
+  border-radius: 10px;
+  box-shadow: 5px 15px gris;
+  box-shadow: 6px 6px;
+  margin: 25px;
+  background-color: #f5b7b1;
+
+  font-weight: bold;
+}
+.btn:hover {
+  cursor: pointer;
+  color: #212f3d;
+}
+
+.times-letter {
+  display: flex;
+  font-weight: bold;
+  margin: 31px;
+  width: 428px;
+  justify-content: space-around;
+}
+.clock {
+  background-color: #cacfd2;
+  width: 472px;
+  margin-left: 500px;
+  padding: 13px;
+  border-radius: 142px;
+}
